@@ -16,8 +16,8 @@ i2c = busio.I2C(board.SCL, board.SDA)
 # lood config setting
 config = configparser.ConfigParser()
 config.read('conf.ini')
-ch1_set = config['SETTING']['ch1']
-ch2_set = config['SETTING']['ch2']
+ch1_set = config['SETTINGS']['ch1']
+ch2_set = config['SETTINGS']['ch2']
 
 # MFC set Channels
 raw_range = 4095
