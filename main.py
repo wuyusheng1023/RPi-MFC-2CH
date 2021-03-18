@@ -38,8 +38,4 @@ while True:
   ch2_dac.raw_value = int(raw_range * ch2_set)
   ch1_read = ch1_adc.value
   ch2_read = ch2_adc.value
-  print(f'''
-    {dt}
-    Channel 1 Set: {ch1_set}, Read {ch1_read}
-    Channel 2 Set: {ch2_set}, Read {ch2_read}
-  ''')
+  print(f'{dt}\nChannel 1 Set: {ch1_set}, Read {ch1_read}\nChannel 2 Set: {ch2_set}, Read {ch2_read}')
